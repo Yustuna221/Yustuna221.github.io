@@ -1,0 +1,40 @@
+*{
+	background-color: #643988;
+}
+.buttons{
+	font-size: 35px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+
+}
+.buttons a{
+	border-style: solid;
+	border-width: 2px;
+	color: black;
+	text-decoration: none;
+	width: 25%;
+	text-align: center;
+}
+.buttons a:hover
+{
+	background-color: black;
+	color:#643988;
+	border-color: white;
+	border-width: 1.5px;
+}
+.img3{
+	display: flex;
+	justify-content: space-between;
+}
+.img3 img{
+	width:400px;
+}
+.text{
+	font-size: 35px;
+	display: flex;
+	width: 80%;
+	padding: 0 10%;
+	flex-direction: column;
+	justify-content: space-around;
+}
